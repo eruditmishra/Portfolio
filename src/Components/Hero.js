@@ -39,12 +39,20 @@ const Hero = () => {
           {/* Link Container */}
           <div className="flex justify-center mx-auto gap-4 px-16 text-[2rem] mt-[2rem] hover:cursor-pointer text-[#2d2e32] lg:mx-0 lg:justify-start">
             <div className="hover:cursor-pointer">
-              <a href="https://www.linkedin.com/in/uditmishra" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/uditmishra"
+                target="_blank"
+                rel="noopener"
+              >
                 <AiFillLinkedin />
               </a>
             </div>
             <div>
-              <a href="https://github.com/eruditmishra" target="_blank">
+              <a
+                href="https://github.com/eruditmishra"
+                target="_blank"
+                rel="noopener"
+              >
                 <AiFillGithub />
               </a>
             </div>

@@ -14,12 +14,20 @@ const Footer = () => {
         {/* Footer Icon Container */}
         <div className="flex gap-4 items-center">
           <div className="text-[#fff] text-[1.5rem]">
-            <a href="https://github.com/eruditmishra" target="_blank">
+            <a
+              href="https://github.com/eruditmishra"
+              target="_blank"
+              rel="noopener"
+            >
               <AiFillGithub />
             </a>
           </div>
           <div className="text-[#fff] text-[1.5rem]">
-            <a href="https://www.linkedin.com/in/uditmishra" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/uditmishra"
+              target="_blank"
+              rel="noopener"
+            >
               <AiFillLinkedin />
             </a>
           </div>
