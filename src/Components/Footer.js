@@ -17,7 +17,7 @@ const Footer = () => {
             <a
               href="https://github.com/eruditmishra"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <AiFillGithub />
             </a>
@@ -26,7 +26,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/uditmishra"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <AiFillLinkedin />
             </a>
