@@ -14,7 +14,7 @@ const Hero = () => {
     // Hero Section Wrapper
     <div
       id="hero"
-      className="flex flex-col  bg-[#f9f9f9] h-full w-full  relative z-[-100] lg:mt-[5rem]"
+      className="flex flex-col  bg-[#f9f9f9] h-full w-full  relative z-[0] lg:mt-[5rem]"
     >
       {/* Hero Content Wrpaaer */}
       <div className="flex flex-col-reverse gap-[5rem] items-center justify-center  relative mx-[10rem] mt-[7rem] lg:flex-row lg:gap-[8rem] lg:mx-[20rem] lg:items-start lg:justify-center">
