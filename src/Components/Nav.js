@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Resume from "../Assets/UDIT.pdf";
 import { Link } from "react-scroll";
-import * as FileSaver from "file-saver";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +9,9 @@ const Nav = () => {
   };
 
   const downloadHandler = () => {
-    FileSaver.saveAs(Resume, "UDIT.pdf");
+    window.open(
+      `https://docs.google.com/document/d/1LdHF_SDpY4MEbPHF-j9Ey14LaWpm8i347QsHefTu1y8/export?format=pdf`
+    );
   };
 
   return (
