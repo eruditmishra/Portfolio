@@ -12,6 +12,7 @@ const HamburgerMenu = () => {
     window.open(
       `https://docs.google.com/document/d/1LdHF_SDpY4MEbPHF-j9Ey14LaWpm8i347QsHefTu1y8/export?format=pdf`
     );
+    toggleMenu();
   };
 
   return (
