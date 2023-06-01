@@ -1,7 +1,5 @@
 import React from "react";
 import data from "../data/data";
-import { AiFillGithub } from "react-icons/ai";
-import ArrowIcon from "../Assets/arrow-up.svg";
 import Card from "./Card";
 
 const Portfolio = () => {
