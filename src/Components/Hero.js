@@ -20,7 +20,7 @@ const Hero = () => {
           {/* Heading Container */}
           <div className="flex relative min-w-[30rem] ">
             <h1 className=" text-[#2d2e32] text-[2.5rem] px-16  mb-8  font-[750] lg:text-left lg:text-[3.4375rem] lg:leading-[4rem]">
-              {/* Front-End React Developer */}
+              {/* Typing Animation */}
               <TypeAnimation
                 sequence={[
                   "Full Stack Developer",
@@ -42,15 +42,10 @@ const Hero = () => {
                 className="font-[750] lg:text-left lg:text-[3.4375rem] text-[2.5rem] lg:leading-[4rem]"
               />
             </h1>
-            {/* <img
-              src={WavingHand}
-              alt=""
-              className="absolute w-[4rem] sm:right-4  sm:bottom-[4rem] md:right-28 md:bottom-8 lg:right-32 lg:bottom-8"
-            /> */}
           </div>
           {/* Hero Text */}
           <p className=" text-[#767676] text-[1rem] px-16 lg:text-[1.15rem]  lg:font-[500] lg:leading-7 lg:text-left">
-            Hi, I'm Udit Mishra. A passionate Front-end React Developer based in
+            Hi, I'm Udit Mishra. A passionate Full Stack MERN Developer based in
             New Delhi, India📍
           </p>
           {/* Link Container */}
