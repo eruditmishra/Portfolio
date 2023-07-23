@@ -1,13 +1,10 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-// import WavingHand from "../Assets/waving-hand.png";
 import HeroImage from "../Assets/hero-img.jpg";
-
-import HTML from "../Assets/html.svg";
-import CSS from "../Assets/css.svg";
 import JavaScript from "../Assets/javascript.svg";
 import ReactIcon from "../Assets/react.svg";
 import TailWind from "../Assets/tailwind.svg";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -23,7 +20,27 @@ const Hero = () => {
           {/* Heading Container */}
           <div className="flex relative min-w-[30rem] ">
             <h1 className=" text-[#2d2e32] text-[2.5rem] px-16  mb-8  font-[750] lg:text-left lg:text-[3.4375rem] lg:leading-[4rem]">
-              Front-End React Developer
+              {/* Front-End React Developer */}
+              <TypeAnimation
+                sequence={[
+                  "Full Stack Developer",
+                  900,
+                  "React JS Developer",
+                  900,
+                  "MERN Developer",
+                  900,
+                  "Front-End Developer",
+                  900,
+                  "Back-End Developer",
+                  900,
+                  "Web Designer",
+                  900,
+                ]}
+                repeat={Infinity}
+                speed={30}
+                style={{ fontSize: "3.4375rem" }}
+                className="font-[750] lg:text-left lg:text-[3.4375rem] text-[2.5rem] lg:leading-[4rem]"
+              />
             </h1>
             {/* <img
               src={WavingHand}
@@ -77,19 +94,32 @@ const Hero = () => {
         </div>
         {/* Tech Stack Icons */}
         <div className="flex flex-row flex-wrap justify-center  gap-4  px-[2rem] items-center lg:gap-12 lg:flex-nowrap">
-          <div className="flex items-center flex-wrap justify-center h-[4rem] w-[4rem]  rounded-full bg-[#fff] shadow-card p-4 ">
-            {/* HTML ICOn */}
-            <img src={HTML} alt="" />
-          </div>
-          <div className="flex items-center justify-center h-[4rem] w-[4rem]  rounded-full bg-[#fff] shadow-card p-4">
-            <img src={CSS} alt="" />
-          </div>
           <div className="flex items-center justify-center h-[4rem] w-[4rem]  rounded-full bg-[#fff] shadow-card p-4">
             <img src={JavaScript} alt="" />
           </div>
           <div className="flex items-center justify-center h-[4rem] w-[4rem]  rounded-full bg-[#fff] shadow-card p-4">
             <img src={ReactIcon} alt="" />
           </div>
+          <div className="flex items-center justify-center h-[4rem] w-[4rem]   rounded-full bg-[#fff] shadow-card p-4 ">
+            <img
+              src="https://account.mongodb.com/static/images/favicon.ico"
+              alt=""
+            />
+          </div>
+          <div className="flex items-center justify-center h-[4rem] w-[4rem]   rounded-full bg-[#fff] shadow-card p-4 ">
+            <img
+              src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+              alt=""
+            />
+          </div>
+
+          <div className="flex items-center justify-center h-[4rem] w-[4rem]   rounded-full bg-[#fff] shadow-card p-4 ">
+            <img
+              src="https://pluralsight2.imgix.net/paths/images/nodejs-45adbe594d.png"
+              alt=""
+            />
+          </div>
+
           <div className="flex items-center justify-center h-[4rem] w-[4rem]   rounded-full bg-[#fff] shadow-card p-4 ">
             <img src={TailWind} alt="" />
           </div>
