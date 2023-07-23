@@ -1,5 +1,4 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -9,27 +8,6 @@ const Footer = () => {
       <div className="text-[#ffffff] text-[1.08rem] leading-[0.9rem] font-bold">
         <p>Copyright © 2023. All rights are reserved</p>
       </div>
-      {/* Footer Icon Container */}
-      {/* <div className="flex gap-4 items-center">
-        <div className="text-[#fff] text-[1.5rem]">
-          <a
-            href="https://github.com/eruditmishra"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiFillGithub />
-          </a>
-        </div>
-        <div className="text-[#fff] text-[1.5rem]">
-          <a
-            href="https://www.linkedin.com/in/uditmishra"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiFillLinkedin />
-          </a>
-        </div>
-      </div> */}
     </div>
   );
 };
