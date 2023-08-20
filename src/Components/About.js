@@ -8,7 +8,7 @@ const About = () => {
     // wrapper
     <div
       id="about"
-      className="flex flex-col justify-center my-20 gap-8 mx-12 xl:flex-row lg:justify-start lg:mt-[8rem] xl:gap-[6rem] xl:mx-60 z-0"
+      className="flex flex-col justify-center py-28 gap-8 mx-12 xl:flex-row lg:justify-start lg:mt-[8rem] xl:gap-[6rem] xl:mx-60 z-0"
     >
       {/* left conatianer */}
       <div className="flex justify-center relative">
@@ -39,17 +39,17 @@ const About = () => {
           About Me
         </p>
         <p className="text-center mt-[1rem] text-[#2D2E32] text-[1.6rem] leading-[2.2rem] font-bold xl:text-left">
-          A dedicated Front-end Developer based in New Delhi, India 📍
+          A dedicated Full Stack MERN Developer based in New Delhi, India 📍
         </p>
         <p className="text-center max-w-[40rem] mt-[1rem] text-[1.01rem] leading-[1.6rem] text-[#767676] xl:text-left">
-          As a Junior Front-End Developer, I possess an impressive arsenal of
-          skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in
-          designing and maintaining responsive websites that offer a smooth user
-          experience. My expertise lies in crafting dynamic, engaging interfaces
-          through writing clean and optimized code and utilizing cutting-edge
-          development tools and techniques. I am also a team player who thrives
-          in collaborating with cross-functional teams to produce outstanding
-          web applications.
+          As a Full Stack MERN Developer, I possess an impressive arsenal of
+          skills in MongoDb, React, Express, Node Js, HTML, CSS, JavaScript and
+          Tailwind. I excel in designing and maintaining responsive websites
+          that offer a smooth user experience. My expertise lies in crafting
+          dynamic, engaging interfaces through writing clean and optimized code
+          and utilizing cutting-edge development tools and techniques. I am also
+          a team player who thrives in collaborating with cross-functional teams
+          to produce outstanding web applications.
         </p>
       </div>
     </div>

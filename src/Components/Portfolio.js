@@ -14,7 +14,7 @@ const Portfolio = () => {
           Each project is a unique piece of development 🧩
         </h2>
         {/* Cards Container*/}
-        <div className="flex flex-col mt-8">
+        <div className="flex flex-col mt-8 w-full mx-auto justify-center">
           {data.map((project) => {
             return project.id % 2 !== 0 ? (
               <div className="flex flex-col  mx-auto gap-12 items-center justify-center mb-12 bg-white rounded-xl shadow-card p-4 xl:flex-row lg:max-w-full">
