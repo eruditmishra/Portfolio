@@ -10,7 +10,7 @@ const Contact = () => {
           contact
         </h2>
         <p className="text-[1.6rem] leading-[1.3rem] font-bold mt-4 lg:text-left">
-          Don't be shy! Hit me up! 👇
+         Reach Out To Me 👇
         </p>
         {/* COntact details wrapper */}
         <div className="flex flex-col justify-center items-center gap-12 my-16 lg:flex-row lg:gap-20">
