@@ -1,9 +1,10 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import HeroImage from "../Assets/hero-img.jpg";
 import JavaScript from "../Assets/javascript.svg";
 import ReactIcon from "../Assets/react.svg";
 import TailWind from "../Assets/tailwind.svg";
+import NextJs from "../Assets/nextJs.png";
+import udit from "../Assets/udit.jpg";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
@@ -73,7 +74,7 @@ const Hero = () => {
         {/* Right COntainer */}
         <div className=" min-w-[20rem] max-w-[20rem]">
           <img
-            src={HeroImage}
+            src={udit}
             alt="Udit Mishra"
             className="  relative  animate-animationMorph border-2 border-black"
           />
@@ -94,6 +95,9 @@ const Hero = () => {
           </div>
           <div className="flex items-center justify-center h-[4rem] w-[4rem]  rounded-full bg-[#fff] shadow-card p-4">
             <img src={ReactIcon} alt="" />
+          </div>
+          <div className="flex items-center justify-center h-[4rem] w-[4rem]   rounded-full bg-[#fff] shadow-card p-4 ">
+            <img src={NextJs} alt="" />
           </div>
           <div className="flex items-center justify-center h-[4rem] w-[4rem]   rounded-full bg-[#fff] shadow-card p-4 ">
             <img

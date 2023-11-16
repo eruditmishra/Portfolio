@@ -15,7 +15,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex items-center justify-between lg:justify-between bg-white fixed w-[100vw] px-16 shadow-custom z-10 lg:h-auto lg:flex-row">
+    <div className="flex items-center justify-between lg:justify-between bg-white fixed w-[100vw] px-16 shadow-custom z-10 lg:h-auto lg:flex-row z-40">
       <div>
         <Link
           to="home"
