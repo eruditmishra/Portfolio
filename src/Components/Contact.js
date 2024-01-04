@@ -41,9 +41,9 @@ const Contact = () => {
               <p className="text-[1.08rem] leading-[1.5rem] font-bold lg:text-left">
                 Mail
               </p>
-              <a href="mailto:eruditmishra@gmail.com">
+              <a href="mailto:uditmishra.dev@gmail.com">
                 <p className="text-[1.08rem] leading-[2rem] text-[#767676] lg:text-left">
-                  eruditmishra@gmail.com
+                  uditmishra.dev@gmail.com
                 </p>
               </a>
             </div>
