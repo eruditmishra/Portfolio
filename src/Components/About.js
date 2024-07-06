@@ -38,14 +38,13 @@ const About = () => {
           A dedicated Full Stack Developer based in New Delhi, India 📍
         </p>
         <p className="text-center max-w-[40rem] mt-[1rem] text-[1.01rem] leading-[1.6rem] text-[#767676] xl:text-left">
-          As a Full Stack Developer, I possess an impressive arsenal of skills
-          in MongoDb, React, Express, Node Js, HTML, CSS, JavaScript and
-          Tailwind. I excel in designing and maintaining responsive websites
-          that offer a smooth user experience. My expertise lies in crafting
-          dynamic, engaging interfaces through writing clean and optimized code
-          and utilizing cutting-edge development tools and techniques. I am also
-          a team player who thrives in collaborating with cross-functional teams
-          to produce outstanding web applications.
+          A skilled full stack developer with strong expertise in creating
+          exceptional web applications and stunning user interfaces. With a
+          comprehensive understanding of both front-end and back-end
+          development, I seamlessly integrate design and functionality to
+          deliver user-friendly, high-performance web solutions. Passionate
+          about leveraging the latest technologies and best practices, I ensure
+          that every project not only meets but exceeds client expectations.
         </p>
       </div>
     </div>

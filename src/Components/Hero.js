@@ -4,7 +4,7 @@ import JavaScript from "../Assets/javascript.svg";
 import ReactIcon from "../Assets/react.svg";
 import TailWind from "../Assets/tailwind.svg";
 import NextJs from "../Assets/nextJs.png";
-import udit from "../Assets/udit.jpg";
+import udit from "../Assets/udit.png";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
@@ -46,8 +46,8 @@ const Hero = () => {
           </div>
           {/* Hero Text */}
           <p className=" text-[#767676] text-[1rem] px-16 lg:text-[1.15rem]  lg:font-[500] lg:leading-7 lg:text-left">
-            Hi, I'm Udit Mishra. A passionate Full Stack MERN Developer based in
-            New Delhi, India📍
+            Hi, I'm Udit Mishra. A passionate Full Stack Developer based in New
+            Delhi, India📍
           </p>
           {/* Link Container */}
           <div className="flex justify-center mx-auto gap-4 px-16 text-[2rem] mt-[2rem] hover:cursor-pointer text-[#2d2e32] lg:mx-0 lg:justify-start">
